@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Entry Web App</title>
+</head>
+<body>
+<h1>Data Entry</h1>
+
+<!-- Input Section -->
+<label for="userData">Enter Data:</label>
+<textarea id="userData" rows="4" cols="50"></textarea><br>
+<button onclick="saveData()">Save</button>
+<button onclick="resetData()">Reset</button><br>
+
+<!-- Display Section -->
+<label for="fileData">File Data:</label>
+<textarea id="fileData" rows="4" cols="50" readonly></textarea><br>
+<button onclick="refreshData()">Refresh</button>
+
+<script src="scripts/scripts.js"></script>
+</body>
+</html>
